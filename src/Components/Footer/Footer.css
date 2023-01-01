@@ -1,0 +1,10 @@
+.footer{
+    background-color: rgb(190, 190, 238,0.8);
+    margin-top: 30px;
+    z-index: 5;
+    position: relative;
+}
+.name span{
+    color: rgb(225, 122, 122);
+    animation-name: names infinite;
+}
