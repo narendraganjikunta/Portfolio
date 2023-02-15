@@ -1,0 +1,10 @@
+@media(max-width:426px){
+    .projects{
+        font-size: 20px;margin-top: -30px;
+    }
+}
+@media(max-width:320px){
+    .projects{
+       font-size:15px;
+    }
+}
