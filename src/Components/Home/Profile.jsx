@@ -1,47 +1,41 @@
-import './Profile.css'
 import narru from '../Assets/narendra.jpeg';
 import { Link } from 'react-router-dom'
+import Content from './Content';
 function Profile() {
     return (
-        <div className='profile-container'>
-            <div className='links'>
-                <h1 className='name'>G.NARENDRA</h1>
-                <div >
-                    <ul className="nav-links">
-                        <li><Link to="/" >Home</Link></li>
-                        <li><Link to="/About" >About</Link></li>
-                        <li><Link to="/Contact" >skills</Link></li>
-                    </ul>
-                </div>
+       
+<>
+<header className="container mainhead">
+            <div className="row ">
+            <nav class="navbar navbar-expand-lg rounded navbar-light bg-warning text-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfFdSIa7MOcUWEY4ZmvtZVTrsajvC4r0SmA&usqp=CAU" className='w-25 rounded-2' alt="" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" ><Link to="/HOME">HOME</Link></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" target="_blank"><Link to="./About">ABOUT</Link> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  "><Link to="./CONTACT">PROJECT</Link></a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
             </div>
-            <div className="detailes">
-                <div className='social-links'>
-                    <ul>
-                        <li><a><i class="fab fa-github"></i></a></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class='fab fa-youtube'></i></li>
-                        <li><i class='fab fa-instagram'></i></li>
-                        <li><i class='fab fa-facebook-f'></i></li>
-                    </ul>
-
-                </div >
-                <div className="detailes2">
-                    <h2>Hello ,I'M <span>NARENDRA</span></h2>
-                    <h2>UI DEVELOPER</h2>
-                </div>
-                <div className='image'>
-                    <img src={narru} />
-                </div>
-
-            </div>
-            <div className='wave'>
-
-            </div>
-            <div className='wave2'>
-
-            </div>
-
-        </div>
+        </header>
+<Content/>
+</>
     )
 }
 

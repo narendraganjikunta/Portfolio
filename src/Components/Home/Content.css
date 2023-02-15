@@ -1,0 +1,80 @@
+.mainhead {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPamhl3KBOKVCPe6xQBwrPz0PGZ4ti0hktbg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.myimage {
+    border-radius: 10% 45% 10% 40%;
+}
+
+.developer {
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-weight: 300;
+}
+
+.btn1:hover {
+    background-color: rgba(0, 128, 0, 0.562);
+    color: white;
+    box-shadow: 2px 3px 7px 1px green;
+    font-weight: 500;
+}
+
+.btn2:hover {
+    background-color: rgba(255, 0, 0, 0.569);
+    color: white;
+    font-weight: 500;
+    box-shadow: 2px 3px 7px 1px red;
+}
+
+/* Contact */
+
+.computer {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexYPSpub-Sv-7dbc_WVJVBSRyezi5U6ne6A&usqp=CAU");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 3%;
+}
+
+.food:hover {
+    color: red;
+    width: auto;
+    transition: all 1s;
+    font-weight: 500;
+}
+
+.portfolio:hover {
+    color: green;
+    width: auto;
+    transition: all 1s;
+    font-weight: 500;
+}
+
+.ecommers:hover {
+    color: yellow;
+    width: auto;
+    transition: all 1s;
+    font-weight: 500;
+}
+
+ a{
+    text-decoration: none;
+}
+/* proj */
+.proj img{
+    width: 100%;
+    height: 40vh;
+}
+.proj .proj1{
+  border: 1px solid rgba(0, 0, 255, 0.366);
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 1px  black;
+  
+}
+.proj .fdetailes{
+    border-top: 1px solid green;
+    border-radius: 10px;
+}
